@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       db.toDoList.add([_controller.text, false, _controller.clear()]);
       Navigator.of(context).pop();
-       db.updateDatabse();
+      db.updateDatabse();
     });
   }
 
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       db.toDoList.removeAt(index);
     });
-     db.updateDatabse();
+    db.updateDatabse();
   }
 
   @override

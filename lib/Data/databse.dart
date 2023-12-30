@@ -10,10 +10,7 @@ class TODodatabase {
   // run this if first time openning the App
 
   void createIntitialData() {
-    toDoList = [
-      ["Do DSA", false],
-      ["Do Exercise", false],
-    ];
+    toDoList = [];
   }
 
   // load data from database
@@ -24,6 +21,5 @@ class TODodatabase {
 
   void updateDatabse() {
     _myBox.put("TODOLIST", toDoList);
-
   }
 }

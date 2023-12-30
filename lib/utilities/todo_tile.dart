@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
 class TODOTile extends StatelessWidget {
-  TODOTile(
-      {super.key,
-      required this.taskName,
-      required this.taskCompleted,
-      required this.onChanged,
-      required this.deleteFunction,
-      });
+  TODOTile({
+    super.key,
+    required this.taskName,
+    required this.taskCompleted,
+    required this.onChanged,
+    required this.deleteFunction,
+  });
 
   final String taskName;
   final bool taskCompleted;
